@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.4.15",
+    "@rsbuild/plugin-node-polyfill": "^1.4.1",
+    "vue-style-loader": "^4.1.3"
+  },
+  "dependencies": {
+    "@midscene/web": "^0.26.6",
+    "@rsbuild/plugin-less": "^1.4.0",
+    "@rsbuild/plugin-vue": "^1.1.1",
+    "css-loader": "^4.3.0",
+    "tdesign-vue": "^1.8.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.11.1",
+    "vue-router": "^3.6.5",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
